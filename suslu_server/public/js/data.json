@@ -1,0 +1,254 @@
+{
+  "youtubeVideosPopular": [
+    {
+      "title": "Medcezir Mira | Serenay Sarıkaya Makyajı",
+      "embedded": "https://www.youtube.com/embed/LthgmnFtXDc",
+      "id" : "LthgmnFtXDc",
+      "sahip" : "Duygu Özaslan"
+    },
+    {
+      "title": "Okul Makyajı & Saçı (Lise Hakkında Sohbet)",
+      "embedded": "https://www.youtube.com/embed/asPWy6QpipY",
+      "id" : "asPWy6QpipY",
+      "sahip" : "Duygu Özaslan"
+    },
+    {
+      "title": "Kylie Jenner Makyajı",
+      "embedded": "https://www.youtube.com/embed/ZGXXonFu9Tw",
+      "id" : "ZGXXonFu9Tw",
+      "sahip" : "Duygu Özaslan"
+
+    },
+    {
+      "title": "Grinin Elli Tonu | Gündüz&Gece",
+      "embedded": "https://www.youtube.com/embed/-QbTs3PRbIo",
+      "id" : "-QbTs3PRbIo",
+      "sahip" : "Duygu Özaslan"
+
+    },
+    {
+      "title": "1 Dakikada Makyaj",
+      "embedded": "https://www.youtube.com/embed/7V6HKRn33xQ",
+      "id" : "7V6HKRn33xQ",
+      "sahip" : "Duygu Özaslan"
+    },
+    {
+      "title": "Yılbaşı Makyajı #1",
+      "embedded": "https://www.youtube.com/embed/YXDy_EsjOPs",
+      "id" : "YXDy_EsjOPs",
+      "sahip" : "Duygu Özaslan"
+    },
+    {
+      "title": "Doğal Görünen, Yok Gibi Makyaj",
+      "embedded" : "https://www.youtube.com/embed/94nBLrUbFKw",
+      "id" : "94nBLrUbFKw",
+      "sahip" : "Duygu Özaslan"
+    }
+  ],
+  "youtubeVideosOgretici": [
+    {
+      "title": "İlk Buluşma Makyajı Nasıl Yapılır?",
+      "embedded": "https://www.youtube-nocookie.com/embed/hBRhEYbdedw",
+      "id" : "hBRhEYbdedw",
+      "sahip" : "Nilperi Şahinkaya"
+    },
+    {
+      "title": "Doğal Tonlarda Makyaj Nasıl Yapılır?",
+      "embedded": "https://www.youtube-nocookie.com/embed/kMmM6oxeZVI",
+      "id" : "kMmM6oxeZVI",
+      "sahip" : "Merve Özkaynak"
+    },
+    {
+      "title": "Yeni Başlayanlar İçin Makyaj",
+      "embedded": "https://www.youtube-nocookie.com/embed/j3wNnH1NHA8",
+      "id" : "j3wNnH1NHA8",
+      "sahip" : "Merve Özkaynak"
+    },
+    {
+      "title": "Doğal ve sade göz makyajı nasıl yapılır?",
+      "embedded": "https://www.youtube-nocookie.com/embed/OxHauG3RHyE",
+      "id" : "OxHauG3RHyE",
+      "sahip" : "Lancôme Turkey"
+    },
+    {
+      "title": "Islak Görünümlü Makyaj Nasıl Yapılır",
+      "embedded": "https://www.youtube-nocookie.com/embed/CjlVpqx0yuE",
+      "id" : "CjlVpqx0yuE",
+      "sahip" : "Sebi Bebi"
+    },
+    {
+      "title": "Kontür Makyajı Nasıl Yapılır ?",
+      "embedded": "https://www.youtube-nocookie.com/embed/97FLkP66AKI",
+      "id" : "97FLkP66AKI",
+      "sahip" : "Merve Sevil"
+    },
+    {
+      "title": "Yeni Başlayanlar İçin Yüz Kontürleme",
+      "embedded" : "https://www.youtube-nocookie.com/embed/VcpMzd0THWQ",
+      "id" : "VcpMzd0THWQ",
+      "sahip" : "Avon Türkiye"
+    }
+  ],
+  "youtubeVideosYuz": [
+    {
+      "title": "Medcezir Mira | Serenay Sarıkaya Makyajı",
+      "embedded": "https://www.youtube.com/embed/LthgmnFtXDc"
+    },
+    {
+      "title": "Okul Makyajı & Saçı (Lise Hakkında Sohbet)",
+      "embedded": "https://www.youtube.com/embed/asPWy6QpipY"
+    },
+    {
+      "title": "Kylie Jenner Makyajı",
+      "embedded": "https://www.youtube.com/embed/ZGXXonFu9Tw"
+    },
+    {
+      "title": "Grinin Elli Tonu | Gündüz&Gece",
+      "embedded": "https://www.youtube.com/embed/-QbTs3PRbIo"
+    },
+    {
+      "title": "1 Dakikada Makyaj",
+      "embedded": "https://www.youtube.com/embed/7V6HKRn33xQ"
+    },
+    {
+      "title": "Yılbaşı Makyajı #1",
+      "embedded": "https://www.youtube.com/embed/YXDy_EsjOPs"
+    },
+    {
+      "title": "Doğal Görünen, Yok Gibi Makyaj",
+      "embedded" : "https://www.youtube.com/embed/94nBLrUbFKw"
+    }
+  ],
+  "youtubeVideosSac": [
+    {
+      "title": "Medcezir Mira | Serenay Sarıkaya Makyajı",
+      "embedded": "https://www.youtube.com/embed/LthgmnFtXDc"
+    },
+    {
+      "title": "Okul Makyajı & Saçı (Lise Hakkında Sohbet)",
+      "embedded": "https://www.youtube.com/embed/asPWy6QpipY"
+    },
+    {
+      "title": "Kylie Jenner Makyajı",
+      "embedded": "https://www.youtube.com/embed/ZGXXonFu9Tw"
+    },
+    {
+      "title": "Grinin Elli Tonu | Gündüz&Gece",
+      "embedded": "https://www.youtube.com/embed/-QbTs3PRbIo"
+    },
+    {
+      "title": "1 Dakikada Makyaj",
+      "embedded": "https://www.youtube.com/embed/7V6HKRn33xQ"
+    },
+    {
+      "title": "Yılbaşı Makyajı #1",
+      "embedded": "https://www.youtube.com/embed/YXDy_EsjOPs"
+    },
+    {
+      "title": "Doğal Görünen, Yok Gibi Makyaj",
+      "embedded" : "https://www.youtube.com/embed/94nBLrUbFKw"
+    }
+  ],
+  "youtubeVideosGoz": [
+    {
+      "title": "Medcezir Mira | Serenay Sarıkaya Makyajı",
+      "embedded": "https://www.youtube.com/embed/LthgmnFtXDc"
+    },
+    {
+      "title": "Okul Makyajı & Saçı (Lise Hakkında Sohbet)",
+      "embedded": "https://www.youtube.com/embed/asPWy6QpipY"
+    },
+    {
+      "title": "Kylie Jenner Makyajı",
+      "embedded": "https://www.youtube.com/embed/ZGXXonFu9Tw"
+    },
+    {
+      "title": "Grinin Elli Tonu | Gündüz&Gece",
+      "embedded": "https://www.youtube.com/embed/-QbTs3PRbIo"
+    },
+    {
+      "title": "1 Dakikada Makyaj",
+      "embedded": "https://www.youtube.com/embed/7V6HKRn33xQ"
+    },
+    {
+      "title": "Yılbaşı Makyajı #1",
+      "embedded": "https://www.youtube.com/embed/YXDy_EsjOPs"
+    },
+    {
+      "title": "Doğal Görünen, Yok Gibi Makyaj",
+      "embedded" : "https://www.youtube.com/embed/94nBLrUbFKw"
+    }
+  ],
+  "youtubeVideosDudak": [
+    {
+      "title": "Kalıcı dudak makyajı nasıl yapılır?",
+      "embedded": "https://www.youtube.com/embed/QaVAfYCzHU4"
+    },
+    {
+      "title": "Mat Bordo Göz, Kahverengi Dudak Makyajı",
+      "embedded": "https://www.youtube.com/embed/p6D3YWeYe1I"
+    },
+    {
+      "title": "Dudak Dolgunlaştırma Makyajı | Evde Sadece 10₺'ye",
+      "embedded": "https://www.youtube.com/embed/-TqJSCxxy8A"
+    },
+    {
+      "title": "Dolgun ve Kusursuz Dudak Makyajı Uygulaması",
+      "embedded": "https://www.youtube.com/embed/bPM7fJ_lgUs"
+    },
+    {
+      "title": "Dudak Makyajı Nasıl Yapılır?",
+      "embedded": "https://www.youtube.com/embed/-5J7PcQ7xUg"
+    },
+    {
+      "title": "Göz Ve Dudak Makyajı İpuçları | Kaçın Suzan Geliyor 2",
+      "embedded": "https://www.youtube.com/embed/6OSsJy5ntl8"
+    },
+    {
+      "title": "Parlak Göz Koyu Dudak Makyajı | makyajmidedin",
+      "embedded" : "https://www.youtube.com/embed/hYVBo-28r6A"
+    }
+  ],
+  "youtubeVideosManikur": [
+    {
+      "title": "Medcezir Mira | Serenay Sarıkaya Makyajı",
+      "embedded": "https://www.youtube.com/embed/LthgmnFtXDc"
+    },
+    {
+      "title": "Okul Makyajı & Saçı (Lise Hakkında Sohbet)",
+      "embedded": "https://www.youtube.com/embed/asPWy6QpipY"
+    },
+    {
+      "title": "Kylie Jenner Makyajı",
+      "embedded": "https://www.youtube.com/embed/ZGXXonFu9Tw"
+    },
+    {
+      "title": "Grinin Elli Tonu | Gündüz&Gece",
+      "embedded": "https://www.youtube.com/embed/-QbTs3PRbIo"
+    },
+    {
+      "title": "1 Dakikada Makyaj",
+      "embedded": "https://www.youtube.com/embed/7V6HKRn33xQ"
+    },
+    {
+      "title": "Yılbaşı Makyajı #1",
+      "embedded": "https://www.youtube.com/embed/YXDy_EsjOPs"
+    },
+    {
+      "title": "Doğal Görünen, Yok Gibi Makyaj",
+      "embedded" : "https://www.youtube.com/embed/94nBLrUbFKw"
+    }
+  ],
+  "videosCategory": [
+
+    {"name": "Popüler"},
+    {"name": "Öğretici"},
+    {"name": "Yüz"},
+    {"name": "Saç"},
+    {"name": "Göz"},
+    {"name": "Dudak"},
+    {"name": "Manikür"}
+
+
+  ]
+}

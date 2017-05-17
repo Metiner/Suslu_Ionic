@@ -1,0 +1,70 @@
+<ion-view>
+	<ion-content overflow-scroll="true">
+        <ion-scroll delegate-handle="calendarScroll" direction="x">
+            <div class="row" style="height: 70px;margin-top: -10px" >
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Populer')" class="button  button-clear  button-dark ">Populer</button></div>
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Alix Avien')" class="button  button-clear  button-dark ">Alix Avien</button></div>
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Anastasia')" class="button  button-clear  button-dark ">Anastasia</button></div>
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Artdeco')" class="button  button-clear  button-dark ">Artdeco</button></div>
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Avene')" class="button  button-clear  button-dark ">Avene</button></div>
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Avon')" class="button  button-clear  button-dark ">Avon</button></div>
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Babe')" class="button  button-clear  button-dark ">Babe</button></div>
+                    </div>
+                </div>
+
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('bareMinerals')" class="button  button-clear  button-dark ">bareMinerals</button></div>
+                    </div>
+                </div>
+
+                <div class="col col-40">
+                    <div class="row">
+                        <div class="col"><button  ng-click="changeUrun('Bath&BodyWorks')" class="button  button-clear  button-dark ">Bath&Body Works</button></div>
+                    </div>
+                </div>
+            </div>
+        </ion-scroll>
+        
+        <ion-list>
+            <ion-item ng-repeat="urun in urunler">
+                <div class="list">
+
+                    <a class="item item-thumbnail-left" href="#/tab/urunler/{{urun.title}}">
+                        <img src ="{{urun.picture}}">
+                        <h2>{{urun.brand}}</h2>
+                        <p>{{urun.title}}</p>
+                        <p><ionic-ratings style="text-align: left;"ratingsobj = 'ratingsObject' ></ionic-ratings></p>
+                    </a>
+                </div>
+                
+           </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="ionicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>S&#xFC;sl&#xFC;</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->,
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="lib/ionic-ratings/dist/ionic-ratings.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+  </head>
+
+  <body ng-controller="MyCtrl">
+
+ 	<ion-pane>
+	 	<ion-header-bar class="bar-light">
+      <div class="row">
+	  			<div class="col"><img src="images/create_thumb.png" width="50" style="margin-top: -5px"></div>
+      </div>
+      <div class="item-input-inset">
+        <label class="item-input-wrapper">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" ng-model="query" placeholder="Search">
+        </label>
+      </div>
+	        <button class="button icon ion-navicon"></button>
+
+    </ion-header-bar>
+    <ion-nav-view></ion-nav-view>
+		<ion-footer-bar>
+	  		<div class="tabs tabs-icon-top">
+	  			<a class="tab-item" href="#/tab/videosPage">
+	  				<i class="icon ion-play"></i>
+	    			Videolar
+	  			</a>
+	  			<a class="tab-item" href="#/tab/sohbet">
+	  				<i class="icon ion-chatbubbles"></i>
+	    			Sohbet
+	  			</a>
+	  			<a class="tab-item" href="#/tab/urunler">
+	  				<i class="icon ion-cube"></i>
+	    			&#xDC;r&#xFC;nler
+	  			</a>
+	  			<a class="tab-item" href="#/tab/ikinciel">
+	  				<i class="icon ion-android-cart"></i>
+	    			2.El
+	  			</a>
+	  		</div>
+	  	</ion-footer-bar>
+ 	</ion-pane>
+  </body>
+</html>

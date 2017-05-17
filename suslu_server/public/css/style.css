@@ -1,0 +1,13 @@
+body{
+
+}
+
+i {
+  color:#ff0080;
+}
+body > header,
+ion-footer-bar {
+  height: 33px;
+}
+
+

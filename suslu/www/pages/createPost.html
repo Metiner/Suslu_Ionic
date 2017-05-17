@@ -1,0 +1,49 @@
+<ion-view>
+    <ion-content>
+        <form novalidate class="simple-form">
+            <div class="list">
+                <label class="item item-input">
+                    <input type="text" placeholder="Başlık" ng-model="konu.baslik">
+                </label>
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                      Kategori
+                    </div>
+                    <select ng-model="konu.kategori">
+                      <option selected>Güzellik</option>
+                      <option>Makyaj</option>
+                      <option>Saç</option>
+                      <option>Manikür&Pedikür</option>
+                      <option>Deri Sağlıgı</option>
+                      <option>Stil&Kombin</option>
+                      <option>Profesyonel</option>
+                      <option>Organizasyon</option>
+                      <option>Promosyon</option>
+                    </select>
+                </label>
+                <label class="item item-input">
+                    <textarea style="height: 150px" placeholder="İçerik" ng-model="konu.icerik"></textarea>
+                </label>
+                <div class="list-card">
+                        <div class="item item-image">
+                            <ion-scroll direction="x">
+                                <ul class="row">
+                                    <li ng-repeat="picture in pictures track by $index">    &nbsp;  &nbsp;  &nbsp;
+                                        <img ng-src="{{picture}}" style="width:100px;height:150px"> 
+                                    </li>
+                                </ul>
+                             </ion-scroll>
+                        </div>
+                    </div>
+                <div class="padding">
+                    <button ng-click="takePicture()" class="button button-block">Take a picture</button>
+                    <button ng-click="choosePhoto()" class="button button-block">Choose Photo From Library</button>
+                </div>
+                <br>
+                <button class="button button-block  button-dark" ng-click="update(konu)">
+                    Yeni Konu Aç
+                </button>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

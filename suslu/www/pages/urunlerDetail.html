@@ -1,0 +1,15 @@
+<ion-view>
+	<ion-content>
+			<ion-list>
+	            <ion-item ng-repeat="urun in urunler | filter: { title : urunTitle}">
+	                <div class="list">
+	                    <a class="item item-thumbnail-left">
+	                        <img src ="{{urun.picture}}">
+	                        <h2>{{urun.brand}}</h2>
+	                        <p>{{urun.title}}</p>
+	                    </a>
+	                </div>    
+	           </ion-item>
+	        </ion-list>
+	</ion-content>
+</ion-view>

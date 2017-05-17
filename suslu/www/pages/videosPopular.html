@@ -1,0 +1,75 @@
+<ion-view>
+  <ion-content overflow-scroll="true">
+    <ion-scroll delegate-handle="calendarScroll" direction="x">
+      <div class="row" style="height: 70px;margin-top: -10px" >
+        <div class="col col-40">
+          <div class="row">
+            <div class="col"><button  ng-click="change('popular')" class="button  button-clear  button-dark ">Popüler</button></div>
+          </div>
+        </div>
+        <div class="col col-40">
+          <div class="row">
+            <div class="col"><button  ng-click="change('ogretici')" class="button  button-clear  button-dark ">Öğretici</button></div>
+          </div>
+        </div>
+        <div class="col col-40">
+          <div class="row">
+            <div class="col"><button  ng-click="change('yuz')" class="button  button-clear  button-dark ">Yüz</button></div>
+          </div>
+        </div>
+        <div class="col col-40">
+          <div class="row">
+            <div class="col"><button  ng-click="change('sac')" class="button  button-clear  button-dark ">Saç</button></div>
+          </div>
+        </div>
+        <div class="col col-40">
+          <div class="row">
+            <div class="col"><button  ng-click="change('goz')" class="button  button-clear  button-dark ">Göz</button></div>
+          </div>
+        </div>
+        <div class="col col-40">
+          <div class="row">
+            <div class="col"><button  ng-click="change('dudak')" class="button  button-clear  button-dark ">Dudak</button></div>
+          </div>
+        </div>
+        <div class="col col-40">
+          <div class="row">
+            <div class="col"><button  ng-click="change('manikur')" class="button  button-clear  button-dark ">Manikür</button></div>
+          </div>
+        </div>
+      </div>
+    </ion-scroll>
+    <ion-list>
+      <ion-item ng-repeat="item in items| filter:query">
+        <div class="list card">
+
+          <div class="item item-avatar">
+            <img src="https://img.youtube.com/vi/JRrVmqi0qlg/0.jpg">
+            <h2>{{item.ownedBy}}</h2>
+            <p>Nine Inch Nails</p>
+          </div>
+
+          <div class="item item-body">
+            <img src="https://img.youtube.com/vi/JRrVmqi0qlg/0.jpg">
+            <p>
+                            This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+                            the content is from a card-body consisting of an image and paragraph text. The footer
+                            consists of tabs, icons aligned left, within the card-footer.
+                        </p>
+                        <p>
+                            <a href="#" class="subdued">{{item.like}} Like</a>
+                            <a href="#" class="subdued">5 Comments</a>
+                        </p>
+          </div>
+        </div>
+
+         
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+
+
+
